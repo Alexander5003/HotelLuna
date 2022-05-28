@@ -66,3 +66,23 @@ form{
     color: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 780px){
+    .contenido{
+        font-size: 3vw;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    li{
+        text-align: justify;
+    }                        
+    .button{
+        width: 30vw;
+        height: 5vh;
+        font-size: 2.5vw;
+    }
+}
